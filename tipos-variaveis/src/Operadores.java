@@ -92,6 +92,5 @@ public class Operadores {
             System.out.println("As duas condições são verdadeiras");
         }
         System.out.println("fim");
-
     }
 }
