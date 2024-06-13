@@ -4,9 +4,8 @@ public class CaixaEletronico {
         double valorSolicitado = 17.0;
 
         // Exemplo de controle de fluxo simples
-        if (valorSolicitado < saldo){
+        if (valorSolicitado < saldo)
             saldo = saldo - valorSolicitado;
-        }
 
         System.out.println(saldo);
     }
