@@ -1,15 +1,9 @@
 public class ResultadoEscolar {
     public static void main(String[] args) {
-        int nota  = 6;
+        int nota  = 4;
 
-        if (nota >= 7)
-            System.out.println("Aprovado");
+        String resultado = nota >= 7 ? "Aprovado" : nota >= 5 && nota < 7 ? "Recuperação" : "Reprovado"; // Equivale ao if, else if e else.
 
-        else if (nota >= 5 && nota < 7) {
-            System.out.println("Recuperação");
-        }
-
-        else
-            System.out.println("Reprovado");
+        System.out.println(resultado);
     }
 }
