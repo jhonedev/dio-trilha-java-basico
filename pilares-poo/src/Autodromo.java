@@ -7,5 +7,6 @@ public class Autodromo {
 
         Moto z400 = new Moto();
         z400.setChassi("454852");
+        z400.ligar();
     }
 }
