@@ -1,12 +1,12 @@
-public class MSNMessenger {
-	public void enviarMensagem() {
+public class FacebookMenseger {
+    public void enviarMensagem() {
         validarConectadoInternet();
-		System.out.println("Enviando mensagem MSN Messenger");
+		System.out.println("Enviando mensagem pelo facebook Messenger");
         salvarHistoricoMensagem();
 	}
-
+    
 	public void receberMensagem() {
-		System.out.println("Recebendo mensagem MSN Messenger");
+		System.out.println("Recebendo mensagem facebook Messenger");
 	}
 	private void validarConectadoInternet() {
 		System.out.println("Validando se está conectado a internet");
