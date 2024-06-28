@@ -7,17 +7,17 @@ classDiagram
     class ReprodutorMusical {
         +tocar()
         +pausar()
-        +selecionarMusica()
+        +selecionarMusica(String musica)
     }
 
     class AparelhoTelefonico {
-        +ligar()
+        +ligar(String numero)
         +atender()
         +iniciarCorreioVoz()
     }
     
     class NavegadorInternet {
-        +exibirPagina()
+        +exibirPagina(String url)
         +adicionarNovaAba()
         +atualizarPagina()
     }
