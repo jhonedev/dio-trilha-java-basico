@@ -1,26 +1,3 @@
-Exemplo de Diagrama UML (Mermaid)
+# Diagrama UML do iPhone
 
-classDiagram
-    class ReprodutorMusical {
-        +tocar()
-        +pausar()
-        +selecionarMusica()
-    }
-
-    class AparelhoTelefonico {
-        +ligar()
-        +atender()
-        +iniciarCorreioVoz()
-}
-    class NavegadorInternet {
-        +exibirPagina()
-        +adicionarNovaAba()
-        +atualizarPagina()
-    }
-
-    class iPhone {
-    }
-
-    iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
-    iPhone --> NavegadorInternet
+![Exemplo de Diagrama UML](diagrama-uml.png)
