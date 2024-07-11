@@ -44,4 +44,18 @@ public class EstoqueProdutos {
         }
         return produtoMaisCaro;
     }
+
+    public static void main(String[] args) {
+        EstoqueProdutos estoque = new EstoqueProdutos();
+        estoque.exibirProduto();
+
+        estoque.adiconarProduto(1L, "Produto A", 10, 5.0);
+        estoque.adiconarProduto(2L, "Produto B", 5, 10.0);
+        estoque.adiconarProduto(03L, "Produto C", 2, 15.0);
+
+        estoque.exibirProduto();
+
+        System.out.println("Valor total de estoque: R$" + estoque.calcularValorTotalEstoque());
+        System.out.println("Produto mais caro: " + estoque.obterProdutoMaisCaro());
+    }
 }
